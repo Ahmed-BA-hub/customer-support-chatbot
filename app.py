@@ -1,6 +1,6 @@
 import streamlit as st
 import nltk
-nltk.data.path.append("nltk_data")
+nltk.data.path.append('./nltk_data')  # <-- Add this line
 
 import string
 
